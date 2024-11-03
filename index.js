@@ -1,11 +1,19 @@
 // Pre-installed user data
 const userData = {
-  users: [
-    { name: "Victor John", bankName: "UBA", balance: 1000 },
-    { name: "Progress Smith", bankName: "Access Bank", balance: 500 },
-    { name: "David Johnson", bankName: "First Bank", balance: 750 },
-    { name: "Weli Chisom", bankName: "UBA", balance: 1200 },
-  ],
+  users: [{ name: "Victor John", bankName: "UBA", balance: 1000 }],
+  currentUserIndex: 0,
+};
+const userData = {
+  users: [{ name: "Progress Smith", bankName: "Access Bank", balance: 500 }],
+  currentUserIndex: 0,
+};
+
+const userData = {
+  users: [{ name: "David Johnson", bankName: "First Bank", balance: 750 }],
+  currentUserIndex: 0,
+};
+const userData = {
+  users: [{ name: "Weli Chisom", bankName: "UBA", balance: 1200 }],
   currentUserIndex: 0,
 };
 
